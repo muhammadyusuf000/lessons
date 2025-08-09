@@ -23,8 +23,8 @@
 
 # print(about_me.keys())    
 
-bozorlik = ["banan","non", "qaymoq", "sut", "tarvuz", "guruch", "kartoshka", "sabzi", "go'sht",]
-mahsulotlar = {"non": 5000, "qaymoq": 20000, "sut": 25000, "tarvuz": 15000, "sabzi": 5000, "go'sht": 120000}
+# bozorlik = ["banan","non", "qaymoq", "sut", "tarvuz", "guruch", "kartoshka", "sabzi", "go'sht",]
+# mahsulotlar = {"non": 5000, "qaymoq": 20000, "sut": 25000, "tarvuz": 15000, "sabzi": 5000, "go'sht": 120000}
     
 # for mahsulotlar in mahsulotlar:
     # if mahsulot in bozorlik:
@@ -45,6 +45,6 @@ mahsulotlar = {"non": 5000, "qaymoq": 20000, "sut": 25000, "tarvuz": 15000, "sab
 for narx in mahsulotlar.values():
     print(f"Mahsulot narxlari: {narx}")
     
-davlatlar = {"Rassiya":"Maskva","Uzbekistan":"Toshkend","Angliya":"Londn","Turkiya":"Anqara","Yaponiya":"Tokiyo"}
+davlatlar = {"Rassiya":"Maskva","Uzbekistan":"Toshkend","Angliya":"London","Turkiya":"Anqara","Yaponiya":"Tokiyo"}
 for davlat, poytaxt in davlatlar.items():   
     print(f"{davlat} davlatning poytaxti {poytaxt} shahri")
